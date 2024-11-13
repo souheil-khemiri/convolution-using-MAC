@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1/exercice_5
+Eaccumulator_32_bit
+Z0 w1731433328
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 25
+Z3 dC:/intelFPGA/20.1/convolution
+Z4 8C:/intelFPGA/20.1/convolution/accumulator_32_bit.vhd
+Z5 FC:/intelFPGA/20.1/convolution/accumulator_32_bit.vhd
+l0
+L4 1
+V<Z^ch0^QMT8_5jBUjZd501
+!s100 iK`W[@;Yej^>LR@=B]PJM0
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1731433341
+!i10b 1
+Z8 !s108 1731433341.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/accumulator_32_bit.vhd|
+!s107 C:/intelFPGA/20.1/convolution/accumulator_32_bit.vhd|
+!i113 1
+Z10 o-work work -2002 -explicit
+Z11 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+DEx4 work 18 accumulator_32_bit 0 22 <Z^ch0^QMT8_5jBUjZd501
+!i122 25
+l28
+L16 26
+Vm];N2XEGkXfUWzdQX6=n`1
+!s100 6Kez;3Oa_96NP9cb`Ah;E1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+Z12 !s107 C:/intelFPGA/20.1/convolution/accumulator_32_bit.vhd|
+!i113 1
+R10
+R11
+Ed_ff
+Z13 w1731422132
+R1
+R2
+!i122 21
+R3
+Z14 8C:/intelFPGA/20.1/convolution/d_ff.vhd
+Z15 FC:/intelFPGA/20.1/convolution/d_ff.vhd
+l0
+L4 1
+VBZkON>_3czzIZH;cX^Y7Z2
+!s100 He8:SSF6HUNhl`Gdjz=Qk0
+R6
+32
+Z16 !s110 1731425973
+!i10b 1
+Z17 !s108 1731425973.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/d_ff.vhd|
+Z19 !s107 C:/intelFPGA/20.1/convolution/d_ff.vhd|
+!i113 1
+R10
+R11
+Artl
+R1
+R2
+DEx4 work 4 d_ff 0 22 BZkON>_3czzIZH;cX^Y7Z2
+!i122 21
+l15
+L13 16
+V_<o09lj`CB`jz>KI8L@<c2
+!s100 H_E@aG<SN@NjikSW0RE<e0
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R10
+R11
+Ed_ff_tb
+Z20 w1731425902
+R1
+R2
+!i122 22
+R3
+Z21 8C:/intelFPGA/20.1/convolution/d_ff_tb.vhd
+Z22 FC:/intelFPGA/20.1/convolution/d_ff_tb.vhd
+l0
+L4 1
+VDG`L1KR:Bgb7WOF5T3W0_2
+!s100 9no^<44616`]a:dX2_gL@0
+R6
+32
+R16
+!i10b 1
+R17
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/d_ff_tb.vhd|
+Z24 !s107 C:/intelFPGA/20.1/convolution/d_ff_tb.vhd|
+!i113 1
+R10
+R11
+Artl
+R1
+R2
+DEx4 work 7 d_ff_tb 0 22 DG`L1KR:Bgb7WOF5T3W0_2
+!i122 22
+l22
+L7 46
+Vn:9Ng9]Tn[AG[if4InL>B3
+!s100 XS18C]d0;aSaFNg4mzonm2
+R6
+32
+R16
+!i10b 1
+R17
+R23
+R24
+!i113 1
+R10
+R11
