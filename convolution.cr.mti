@@ -1,0 +1,88 @@
+C:/intelFPGA/20.1/convolution/d_ff_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/20.1/convolution/d_ff_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity d_ff_tb
+-- Compiling architecture rtl of d_ff_tb
+
+} {} {}} C:/intelFPGA/20.1/convolution/datapath_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/20.1/convolution/datapath_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity datapath_tb
+-- Compiling architecture rtl of datapath_tb
+
+} {} {}} C:/intelFPGA/20.1/convolution/filter_select.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/20.1/convolution/filter_select.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity filter_select
+-- Compiling architecture rtl of filter_select
+
+} {} {}} C:/intelFPGA/20.1/convolution/controlpath.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/20.1/convolution/controlpath.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity controlpath
+-- Compiling architecture rtl of controlpath
+
+} {} {}} C:/intelFPGA/20.1/convolution/accumulator_32_bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/20.1/convolution/accumulator_32_bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity accumulator_32_bit
+-- Compiling architecture rtl of accumulator_32_bit
+
+} {} {}} C:/intelFPGA/20.1/convolution/filter_select_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/20.1/convolution/filter_select_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity filter_select_tb
+-- Compiling architecture rtl of filter_select_tb
+
+} {} {}} C:/intelFPGA/20.1/convolution/datapath.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/20.1/convolution/datapath.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity datapath
+-- Compiling architecture rtl of datapath
+
+} {} {}} C:/intelFPGA/20.1/convolution/d_ff.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/20.1/convolution/d_ff.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity d_ff
+-- Compiling architecture rtl of d_ff
+
+} {} {}} C:/intelFPGA/20.1/convolution/accumulator_32_bit_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/20.1/convolution/accumulator_32_bit_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity accumulator_32_bit_tb
+-- Compiling architecture rtl of accumulator_32_bit_tb
+
+} {} {}} C:/intelFPGA/20.1/convolution/sram.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/20.1/convolution/sram.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sram
+-- Compiling architecture rtl of sram
+
+} {} {}}
