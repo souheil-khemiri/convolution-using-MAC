@@ -2,7 +2,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity sram is
+entity memory is
     generic (
         adress_width : natural := 5; -- 2 **5 = 32
         word_width : natural := 8
@@ -17,11 +17,10 @@ entity sram is
     );
 end entity;
 
-architecture rtl of sram is
+architecture rtl of memory is
 
-    subtype word is std_logic_vector(word_width-1 downto 0); 
-    type RAM is array (0 to (2**adress_width -1)) of word ; 
-    signal RAM32B : RAM ;
+    type mem is array (0 to (2**adress_width -1)) of std_logic_vector(word_width-1 downto 0) ; 
+    signal mem_block : mem ;
     
 begin
 
@@ -30,12 +29,12 @@ begin
     begin
         adrs_index := to_integer(unsigned(adrs));
         if (rst = '1') then
-            RAM32B <= (others => (others => '0'));
+            mem_block <= (others => (others => '0'));
         elsif (clk'event and clk = '1' ) then
             if(we ='1') then
-                RAM32B(adrs_index) <= D;
+                mem_block(adrs_index) <= D;
             else
-                Q <= RAM32B(adrs_index);  
+                Q <= mem_block(adrs_index);  
             end if;   
         end if;
         

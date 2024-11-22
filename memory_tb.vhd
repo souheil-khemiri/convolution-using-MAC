@@ -2,12 +2,12 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity sram_tb is
+entity memory_tb is
 end entity;
 
-architecture rtl of sram_tb is
+architecture rtl of memory_tb is
 
-    component sram is
+    component memory is
         
         generic (
             adress_width : natural := 5 ;
@@ -31,7 +31,7 @@ architecture rtl of sram_tb is
 
 begin
 
-    sram_inst : sram
+    memory_inst : memory
 
     -- if you want to use the default generic values, omit the generic map clause
 
@@ -55,16 +55,7 @@ begin
 
     simproc :process 
     begin
-        -- rst <='1';
-        -- we <= '0';
-        -- wait for 1 ns ; --1
-        -- rst <= '0' ;
-        -- wait for 4 ns; --5
-        -- adrs <= "00000" ;
-        -- wait for 1 ns ;--6
-        -- D <= "01010101";
-        -- we <= '1';
-        -- wait; --11
+
 
         rst <= '1';
         we <= '0';
@@ -75,7 +66,7 @@ begin
         rst <= '0';
         wait for 10 ns;
         
-        -- Write to SRAM
+        -- Write to memory
         we <= '1';
         adrs <= "00001";
         D <= "10101010";
@@ -85,7 +76,7 @@ begin
         adrs <= "00001";
         wait for 10 ns;
         
-        -- Read from SRAM
+        -- Read from memory
         we <= '0';
         adrs <= "00001";
         wait for 10 ns;
