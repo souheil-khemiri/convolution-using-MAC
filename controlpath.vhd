@@ -90,6 +90,7 @@ begin
     process(current_state)
     begin
         case current_state is
+
             when s1 => 
                 mem_w_we <= '0';
                 acc_rst <= '1';
@@ -108,27 +109,21 @@ begin
                     mem_r_adrs_sig <= std_logic_vector(unsigned(mem_r_adrs_sig) - 1);    
                 end if;
                 
-
-                
-
-            when s3 => -- output of the 1 mac is done -----------2
-                mem_w_we <= '0';
+            when s3 => 
                 acc_rst <= '0';
                 filter_sel <= "00";
                 mem_r_adrs_sig <= std_logic_vector(unsigned(mem_r_adrs_sig) + 1);
                 
-
-            when s4 =>--output of the 2 mac is done -------------3
-                acc_rst <='0';
+            when s4 =>
                 filter_sel <= "01";
                 mem_r_adrs_sig <= std_logic_vector(unsigned(mem_r_adrs_sig) + 1);
 
-
-            when s5 =>-- output of the 3 mac --------------4
-
+            when s5 =>
                 filter_sel <="10";
+
             when S6 =>
                 mem_w_we <= '1';
+
             when s7 =>
                 mem_w_we <= '0';
                 acc_rst<='1';

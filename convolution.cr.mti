@@ -24,6 +24,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity filter_select
 -- Compiling architecture rtl of filter_select
 
+} {} {}} C:/intelFPGA/20.1/convolution/controlpath.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/20.1/convolution/controlpath.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Compiling entity controlpath
+-- Compiling architecture rtl of controlpath
+
 } {} {}} C:/intelFPGA/20.1/convulution-using-MAC/convolution-using-MAC/datapath.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/20.1/convulution-using-MAC/convolution-using-MAC/datapath.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -40,15 +50,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package std_logic_1164
 -- Compiling entity d_ff
 -- Compiling architecture rtl of d_ff
-
-} {} {}} C:/intelFPGA/20.1/convolution/cv_testbench.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/20.1/convolution/cv_testbench.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity cv_testbench
--- Compiling architecture rtl of cv_testbench
 
 } {} {}} C:/intelFPGA/20.1/convolution/convolution.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/20.1/convolution/convolution.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -155,15 +156,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package NUMERIC_STD
 -- Compiling entity datapath
 -- Compiling architecture rtl of datapath
-
-} {} {}} C:/intelFPGA/20.1/convolution/memory.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/20.1/convolution/memory.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity memory
--- Compiling architecture rtl of memory
 
 } {} {}} C:/intelFPGA/20.1/convulution-using-MAC/convolution-using-MAC/accumulator_32_bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/20.1/convulution-using-MAC/convolution-using-MAC/accumulator_32_bit.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020

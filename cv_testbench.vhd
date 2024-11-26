@@ -180,7 +180,7 @@ begin
             wait for 10 ns;
         end loop;
         
-            
+        --check values in mem_r   
         mem_r_we_tb <= '0';
         wait for 50 ns ;
         wait for 1 ns ;

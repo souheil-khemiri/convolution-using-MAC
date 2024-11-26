@@ -34,7 +34,6 @@ begin
             if(we ='1') then
                 mem_block(adrs_index) <= D;
             else
-            --end if;
                 Q <= mem_block(adrs_index);  
             end if;   
         end if;
