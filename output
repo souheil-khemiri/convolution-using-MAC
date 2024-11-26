@@ -1,0 +1,85 @@
+Current State: idle      
+Next State: idle      
+Iteration Number: -2147483648
+Memory Read Address: UUUUU
+Memory Write Address: UUUUU
+Current State: idle      
+Next State: idle      
+Iteration Number: 0
+Memory Read Address: 00000
+Memory Write Address: 00000
+Current State: idle      
+Next State: idle      
+Iteration Number: 0
+Memory Read Address: 00000
+Memory Write Address: 00000
+Current State: clear_load
+Next State: clear_load
+Iteration Number: 0
+Memory Read Address: 00000
+Memory Write Address: 00000
+Current State: MAC_0     
+Next State: MAC_0     
+Iteration Number: 1
+Memory Read Address: 00000
+Memory Write Address: 00000
+Current State: MAC_1     
+Next State: MAC_1     
+Iteration Number: 1
+Memory Read Address: 00001
+Memory Write Address: 00000
+Current State: MAC_2     
+Next State: MAC_2     
+Iteration Number: 1
+Memory Read Address: 00010
+Memory Write Address: 00000
+Current State: clear_load
+Next State: clear_load
+Iteration Number: 1
+Memory Read Address: 00010
+Memory Write Address: 00000
+Current State: clear_load
+Next State: MAC_0     
+Iteration Number: 2
+Memory Read Address: 00001
+Memory Write Address: 00001
+Current State: MAC_0     
+Next State: MAC_0     
+Iteration Number: 2
+Memory Read Address: 00001
+Memory Write Address: 00001
+Current State: MAC_1     
+Next State: MAC_1     
+Iteration Number: 2
+Memory Read Address: 00010
+Memory Write Address: 00001
+Current State: MAC_2     
+Next State: MAC_2     
+Iteration Number: 2
+Memory Read Address: 00011
+Memory Write Address: 00001
+Current State: clear_load
+Next State: clear_load
+Iteration Number: 2
+Memory Read Address: 00011
+Memory Write Address: 00001
+Current State: MAC_0     
+Next State: MAC_0     
+Iteration Number: 3
+Memory Read Address: 00010
+Memory Write Address: 00010
+Current State: MAC_1     
+Next State: MAC_1     
+Iteration Number: 3
+Memory Read Address: 00011
+Memory Write Address: 00010
+Current State: MAC_2     
+Next State: MAC_2     
+Iteration Number: 3
+Memory Read Address: 00100
+Memory Write Address: 00010
+Current State: idle      
+Next State: idle      
+Iteration Number: 3
+Memory Read Address: 00100
+Memory Write Address: 00010

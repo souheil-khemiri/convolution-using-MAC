@@ -33,7 +33,7 @@ begin
                 clk =>clk,
                 rst =>rst,
                 D =>D(i),
-                Q =>q(i)
+                Q =>Q(i)
             );
     end generate;
     

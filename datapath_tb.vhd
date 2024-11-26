@@ -30,8 +30,8 @@ begin
 
     datapath_inst: datapath
      generic map(
-        filter0 => -1,
-        filter1 => 0,
+        filter0 => 1,
+        filter1 => 1,
         filter2 => 1
     )
      port map(
@@ -51,17 +51,24 @@ begin
     end process;
 
     simproc : process 
-    begin
+    begin 
         rst <= '1';
-        wait for 2 ns;
-        rst<='0';
         sel<= "00";
-        wait for 2 ns ;
-        data_in<="00000010"; --input value 2
+        data_in<="00000001";
         wait for 10 ns;
+        rst<='0';
+
+        --wait for 10 ns ;
+        --data_in<="00000010"; --input value 2
+        --wait for 10 ns;
+        data_in <= "00000010";
         sel <= "01";
         wait for 10 ns ;
+        data_in <= "00000011";
         sel <= "10";
+        wait for 30 ns ;
+        rst<= '1';
+        --sel <= "10";
         wait;
 
         
