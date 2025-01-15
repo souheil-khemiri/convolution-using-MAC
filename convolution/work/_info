@@ -1,0 +1,589 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/20.1/convolution
+Eaccumulator_32_bit
+Z1 w1732565629
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2337
+Z4 dC:/intelFPGA/20.1/convolution/convolution
+Z5 8C:/intelFPGA/20.1/convolution/convolution/accumulator_32_bit.vhd
+Z6 FC:/intelFPGA/20.1/convolution/convolution/accumulator_32_bit.vhd
+l0
+L4 1
+V<Z^ch0^QMT8_5jBUjZd501
+!s100 iK`W[@;Yej^>LR@=B]PJM0
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1736853782
+!i10b 1
+Z9 !s108 1736853782.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/convolution/accumulator_32_bit.vhd|
+Z11 !s107 C:/intelFPGA/20.1/convolution/convolution/accumulator_32_bit.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+DEx4 work 18 accumulator_32_bit 0 22 <Z^ch0^QMT8_5jBUjZd501
+!i122 2337
+l28
+L16 26
+V1FcVz1dXWCYGZZj^dIGZZ0
+!s100 iS:CKz<QkWY;XNX_[1iU00
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eaccumulator_32_bit_tb
+Z14 w1731694903
+Z15 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 2338
+R4
+Z16 8C:/intelFPGA/20.1/convolution/convolution/accumulator_32_bit_tb.vhd
+Z17 FC:/intelFPGA/20.1/convolution/convolution/accumulator_32_bit_tb.vhd
+l0
+L6 1
+VB>hhK=_8ES1QM29[>BhB33
+!s100 nWR]>_]S_j?XSl;b18>oa3
+R7
+32
+Z18 !s110 1736853783
+!i10b 1
+R9
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/convolution/accumulator_32_bit_tb.vhd|
+Z20 !s107 C:/intelFPGA/20.1/convolution/convolution/accumulator_32_bit_tb.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R2
+R3
+DEx4 work 21 accumulator_32_bit_tb 0 22 B>hhK=_8ES1QM29[>BhB33
+!i122 2338
+l24
+L9 49
+V_<oVSZVOoVbU:M>PaF=X`3
+!s100 >1M1j_@a`SaFK7[K0DcFY2
+R7
+32
+R18
+!i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13
+Econtrolpath
+Z21 w1732643431
+Z22 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R15
+R2
+R3
+!i122 2350
+R4
+Z23 8C:/intelFPGA/20.1/convolution/convolution/old_controlpath.vhd
+Z24 FC:/intelFPGA/20.1/convolution/convolution/old_controlpath.vhd
+l0
+L1020 1
+V<UHfXzFUfd]VjzAAY29fl2
+!s100 kJA:7ON;Y5lVaSO57A>VK0
+R7
+32
+Z25 !s110 1736853789
+!i10b 1
+Z26 !s108 1736853788.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/convolution/old_controlpath.vhd|
+!s107 C:/intelFPGA/20.1/convolution/convolution/old_controlpath.vhd|
+!i113 1
+R12
+R13
+Artl
+R22
+R15
+R2
+R3
+DEx4 work 11 controlpath 0 22 <UHfXzFUfd]VjzAAY29fl2
+!i122 2350
+l1050
+L1042 107
+VQbOULXRd1V14LDkh_caia0
+!s100 @]8nYWikl>Ym`=UHU4;nT1
+R7
+32
+R25
+!i10b 1
+R26
+R27
+Z28 !s107 C:/intelFPGA/20.1/convolution/convolution/old_controlpath.vhd|
+!i113 1
+R12
+R13
+Econv_testbench
+w1732299058
+R15
+R2
+R3
+!i122 36
+R0
+8C:/intelFPGA/20.1/convolution/cv_testbench.vhd
+FC:/intelFPGA/20.1/convolution/cv_testbench.vhd
+l0
+L5 1
+VK]AZUo`=CB?g:P1X2FFb<2
+!s100 J:9V2oge?b^eQfF43ZM7A0
+R7
+32
+!s110 1732299176
+!i10b 1
+!s108 1732299176.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/cv_testbench.vhd|
+!s107 C:/intelFPGA/20.1/convolution/cv_testbench.vhd|
+!i113 1
+R12
+R13
+Econvolution
+Z29 w1732550479
+R15
+R2
+R3
+!i122 2340
+R4
+Z30 8C:/intelFPGA/20.1/convolution/convolution/convolution.vhd
+Z31 FC:/intelFPGA/20.1/convolution/convolution/convolution.vhd
+l0
+L5 1
+VNHTl:Y5=2P5];8n2Vm9YA0
+!s100 90WBTG<QP5gcYX:BkUS:Z2
+R7
+32
+Z32 !s110 1736853784
+!i10b 1
+Z33 !s108 1736853783.000000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/convolution/convolution.vhd|
+Z35 !s107 C:/intelFPGA/20.1/convolution/convolution/convolution.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R2
+R3
+DEx4 work 11 convolution 0 22 NHTl:Y5=2P5];8n2Vm9YA0
+!i122 2340
+l74
+L29 79
+Vz^oB]9ZmH^mj6FCfm`bD_1
+!s100 _c<kJSII;UOJf;:NRTEO<0
+R7
+32
+R32
+!i10b 1
+R33
+R34
+R35
+!i113 1
+R12
+R13
+Ecv_testbench
+Z36 w1736002673
+R15
+R2
+R3
+!i122 2341
+R4
+Z37 8C:/intelFPGA/20.1/convolution/convolution/cv_testbench.vhd
+Z38 FC:/intelFPGA/20.1/convolution/convolution/cv_testbench.vhd
+l0
+L6 1
+VU`@3;LkUiLKj>dAP4`^;J0
+!s100 zbzn2@PCD4b;0YQShK8Q33
+R7
+32
+R32
+!i10b 1
+Z39 !s108 1736853784.000000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/convolution/cv_testbench.vhd|
+Z41 !s107 C:/intelFPGA/20.1/convolution/convolution/cv_testbench.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R2
+R3
+DEx4 work 12 cv_testbench 0 22 U`@3;LkUiLKj>dAP4`^;J0
+!i122 2341
+l83
+L10 223
+V_>of=lLiC0e^@]6=D2aRH3
+!s100 Rdn]Dza=Od[<O?Bi?gcHQ3
+R7
+32
+R32
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R12
+R13
+Ed_ff
+Z42 w1731422132
+R2
+R3
+!i122 2342
+R4
+Z43 8C:/intelFPGA/20.1/convolution/convolution/d_ff.vhd
+Z44 FC:/intelFPGA/20.1/convolution/convolution/d_ff.vhd
+l0
+L4 1
+VBZkON>_3czzIZH;cX^Y7Z2
+!s100 He8:SSF6HUNhl`Gdjz=Qk0
+R7
+32
+Z45 !s110 1736853785
+!i10b 1
+R39
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/convolution/d_ff.vhd|
+Z47 !s107 C:/intelFPGA/20.1/convolution/convolution/d_ff.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+DEx4 work 4 d_ff 0 22 BZkON>_3czzIZH;cX^Y7Z2
+!i122 2342
+l15
+L13 16
+V_<o09lj`CB`jz>KI8L@<c2
+!s100 H_E@aG<SN@NjikSW0RE<e0
+R7
+32
+R45
+!i10b 1
+R39
+R46
+R47
+!i113 1
+R12
+R13
+Ed_ff_tb
+Z48 w1731425902
+R2
+R3
+!i122 2343
+R4
+Z49 8C:/intelFPGA/20.1/convolution/convolution/d_ff_tb.vhd
+Z50 FC:/intelFPGA/20.1/convolution/convolution/d_ff_tb.vhd
+l0
+L4 1
+VDG`L1KR:Bgb7WOF5T3W0_2
+!s100 9no^<44616`]a:dX2_gL@0
+R7
+32
+R45
+!i10b 1
+Z51 !s108 1736853785.000000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/convolution/d_ff_tb.vhd|
+Z53 !s107 C:/intelFPGA/20.1/convolution/convolution/d_ff_tb.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+DEx4 work 7 d_ff_tb 0 22 DG`L1KR:Bgb7WOF5T3W0_2
+!i122 2343
+l22
+L7 46
+Vn:9Ng9]Tn[AG[if4InL>B3
+!s100 XS18C]d0;aSaFNg4mzonm2
+R7
+32
+R45
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R12
+R13
+Edatapath
+Z54 w1732475821
+R15
+R2
+R3
+!i122 2344
+R4
+Z55 8C:/intelFPGA/20.1/convolution/convolution/datapath.vhd
+Z56 FC:/intelFPGA/20.1/convolution/convolution/datapath.vhd
+l0
+L5 1
+V<I>aRNdo`1]oXWkXcOgNk2
+!s100 d5MU`HkmKIVifDY^3P6iH2
+R7
+32
+Z57 !s110 1736853786
+!i10b 1
+R51
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/convolution/datapath.vhd|
+Z59 !s107 C:/intelFPGA/20.1/convolution/convolution/datapath.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R2
+R3
+DEx4 work 8 datapath 0 22 <I>aRNdo`1]oXWkXcOgNk2
+!i122 2344
+l52
+L20 66
+V7>YXhO2?Fekob@aTWWdoA3
+!s100 lFV@27GYZ<9]53lE@>C1?0
+R7
+32
+R57
+!i10b 1
+R51
+R58
+R59
+!i113 1
+R12
+R13
+Edatapath_tb
+Z60 w1732564711
+R15
+R2
+R3
+!i122 2345
+R4
+Z61 8C:/intelFPGA/20.1/convolution/convolution/datapath_tb.vhd
+Z62 FC:/intelFPGA/20.1/convolution/convolution/datapath_tb.vhd
+l0
+L5 1
+Va4hQ5EI4LmRg^Tg:d9[V_1
+!s100 c1;4j5=1R>=jcTU7:VYJT2
+R7
+32
+R57
+!i10b 1
+Z63 !s108 1736853786.000000
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/convolution/datapath_tb.vhd|
+Z65 !s107 C:/intelFPGA/20.1/convolution/convolution/datapath_tb.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R2
+R3
+DEx4 work 11 datapath_tb 0 22 a4hQ5EI4LmRg^Tg:d9[V_1
+!i122 2345
+l29
+L8 72
+VRZJOO_=b9;hlbVZTnVmKN1
+!s100 m1e?7]44f0A7k1K_mcGA;1
+R7
+32
+R57
+!i10b 1
+R63
+R64
+R65
+!i113 1
+R12
+R13
+Efilter_select
+Z66 w1731772172
+R15
+R2
+R3
+!i122 2346
+R4
+Z67 8C:/intelFPGA/20.1/convolution/convolution/filter_select.vhd
+Z68 FC:/intelFPGA/20.1/convolution/convolution/filter_select.vhd
+l0
+L5 1
+VdjIY1@ib^khB3;NNZRg393
+!s100 2b>:ih`3d52bX3jM<AW=b1
+R7
+32
+Z69 !s110 1736853787
+!i10b 1
+R63
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/convolution/filter_select.vhd|
+Z71 !s107 C:/intelFPGA/20.1/convolution/convolution/filter_select.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R2
+R3
+DEx4 work 13 filter_select 0 22 djIY1@ib^khB3;NNZRg393
+!i122 2346
+l27
+L17 28
+VI?gJZBd^Clmn1DB6ACZGB3
+!s100 eFZi[1[eYlNEn[`^fY7oj3
+R7
+32
+R69
+!i10b 1
+R63
+R70
+R71
+!i113 1
+R12
+R13
+Efilter_select_tb
+Z72 w1731771499
+R15
+R2
+R3
+!i122 2347
+R4
+Z73 8C:/intelFPGA/20.1/convolution/convolution/filter_select_tb.vhd
+Z74 FC:/intelFPGA/20.1/convolution/convolution/filter_select_tb.vhd
+l0
+L5 1
+V[MUbEQ@jE3PTQ>U=g;9Og1
+!s100 6CCjAmHaZm1ObAORi4h4=2
+R7
+32
+R69
+!i10b 1
+Z75 !s108 1736853787.000000
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/convolution/filter_select_tb.vhd|
+Z77 !s107 C:/intelFPGA/20.1/convolution/convolution/filter_select_tb.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R2
+R3
+DEx4 work 16 filter_select_tb 0 22 [MUbEQ@jE3PTQ>U=g;9Og1
+!i122 2347
+l24
+L8 44
+VkH5ABHj7NglNoY]3naC`e3
+!s100 4kWmkejU0;k2<BBjG3?mb0
+R7
+32
+R69
+!i10b 1
+R75
+R76
+R77
+!i113 1
+R12
+R13
+Ememory
+R21
+R15
+R2
+R3
+!i122 2350
+R4
+R23
+R24
+l0
+L829 1
+VRb:WbTJ3mEc9IWkOMRIiL0
+!s100 dYQI>CZ`4IGIQi6Z^R4l>2
+R7
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R12
+R13
+Artl
+R15
+R2
+R3
+DEx4 work 6 memory 0 22 Rb:WbTJ3mEc9IWkOMRIiL0
+!i122 2350
+l849
+L844 27
+VJ8;F9dM[;3Y5z;K9C;>MU3
+!s100 X=6dG2MCLGWkWCb2iEgR=1
+R7
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R12
+R13
+Ememory_tb
+Z78 w1736608431
+R15
+R2
+R3
+!i122 2349
+R4
+Z79 8C:/intelFPGA/20.1/convolution/convolution/memory_tb.vhd
+Z80 FC:/intelFPGA/20.1/convolution/convolution/memory_tb.vhd
+l0
+L5 1
+V6RCz[[3e4H5=KE5Lgd`UQ3
+!s100 ;HleMYoiKf@m0K3<Zg4Yn2
+R7
+32
+Z81 !s110 1736853788
+!i10b 1
+R26
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/convolution/memory_tb.vhd|
+Z83 !s107 C:/intelFPGA/20.1/convolution/convolution/memory_tb.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R2
+R3
+DEx4 work 9 memory_tb 0 22 6RCz[[3e4H5=KE5Lgd`UQ3
+!i122 2349
+l32
+L8 112
+VdHA69T[3C@XoVTI46_4O_3
+!s100 Z[aclYCnA;^m69`TU5XhU1
+R7
+32
+R81
+!i10b 1
+R26
+R82
+R83
+!i113 1
+R12
+R13

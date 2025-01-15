@@ -1,3 +1,4 @@
+-- Hello me
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -175,7 +176,7 @@ begin
         for i in 0 to 5 loop
             mem_r_we_tb <= '1';
             mem_r_adrs_tb <= std_logic_vector(to_unsigned(i, mem_r_adrs_tb'length));
-            wait for 2 ns;
+            --wait for 2 ns;
             mem_r_in<= std_logic_vector(to_unsigned(i + 1, mem_r_in'length)); -- Example data
             wait for 10 ns;
         end loop;
@@ -183,7 +184,7 @@ begin
         --check values in mem_r   
         mem_r_we_tb <= '0';
         wait for 50 ns ;
-        wait for 1 ns ;
+        --wait for 1 ns ;
         mem_r_adrs_tb <= "00000";
         wait for 10 ns ;
         mem_r_adrs_tb <= "00001";

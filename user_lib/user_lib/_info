@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1/convolution/convolution
+Emac_8bit
+Z0 w1736869711
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 19
+Z4 dC:/intelFPGA/20.1/convolution/user_lib
+Z5 8C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit.vhd
+Z6 FC:/intelFPGA/20.1/convolution/user_lib/MAC_8bit.vhd
+l0
+L5 1
+VPb=:W8C[0iHJR9cQ3TJDd0
+!s100 lV:BcK8^BZHHlgRfS<cfK1
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1736869721
+!i10b 1
+Z9 !s108 1736869721.000000
+Z10 !s90 -reportprogress|300|-work|user_lib|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit.vhd|
+Z11 !s107 C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit.vhd|
+!i113 1
+Z12 o-work user_lib -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+DEx4 work 8 mac_8bit 0 22 Pb=:W8C[0iHJR9cQ3TJDd0
+!i122 19
+l23
+L16 32
+V=mb1kT=am[N2]H9HcQ8162
+!s100 c0[TZLd<lX_7]InGee=e^2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Emac_8bit_tb
+Z14 w1736869129
+R1
+R2
+R3
+!i122 20
+R4
+Z15 8C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit_tb.vhd
+Z16 FC:/intelFPGA/20.1/convolution/user_lib/MAC_8bit_tb.vhd
+l0
+L5 1
+VYjDKQA?Kl:2PEO12W1GHm3
+!s100 7X??OhjalE9DSJ3LR4H4G3
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|user_lib|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit_tb.vhd|
+Z18 !s107 C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit_tb.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+Z19 DEx4 work 11 mac_8bit_tb 0 22 YjDKQA?Kl:2PEO12W1GHm3
+!i122 20
+l31
+Z20 L8 83
+Z21 Vl0WCBSUzcC:gWE4j7OeV91
+Z22 !s100 X]:<OHeYbT7VaBh6AVIol0
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13

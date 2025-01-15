@@ -22,7 +22,7 @@ architecture rtl of memory_tb is
             Q    : out std_logic_vector((word_width-1) downto 0)
         );
     end component;
-    -- generic values are limited in scopr to the component declaration, they are not even accessib
+    -- generic values are limited in scope to the component declaration, they are not even accessible
     signal clk : std_logic;
     signal D,Q : std_logic_vector(7 downto 0);
     signal we, rst : std_logic;
@@ -69,19 +69,49 @@ begin
         -- Write to memory
         we <= '1';
         adrs <= "00001";
-        D <= "10101010";
+        D <= "00000001";
         wait for 10 ns;
         
-        we <= '0';
-        adrs <= "00001";
+        ------we <= '0';
+        adrs <= "00010";
+        D <= "00000010";
         wait for 10 ns;
+
+        adrs <= "00011";
+        D <= "00000011";
+        wait for 10 ns;
+        
+        adrs <= "00100";
+        D <= "00000100";
+        wait for 10 ns;
+        
+        adrs <= "00101";
+        D <= "00000101";
+        wait for 10 ns;
+        
+        adrs <= "00110";
+        D <= "00000110";
+        wait for 10 ns;
+
+
         
         -- Read from memory
         we <= '0';
         adrs <= "00001";
         wait for 10 ns;
+
+        adrs <= "00000";
+        wait for 10 ns ;
+
+        adrs <= "00010"; 
+        wait for 10 ns;
+
+        adrs <= "00011"; 
+        wait for 5 ns;
+
+        adrs <= "00100";
+        --wait for 5 ns;
         
-        -- End simulation
         wait;
     end process;
     
