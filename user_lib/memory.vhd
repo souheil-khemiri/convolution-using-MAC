@@ -23,14 +23,17 @@ architecture rtl of memory is
     type mem is array (0 to (2**adress_width -1)) of std_logic_vector(word_width-1 downto 0) ; 
     signal mem_block : mem ;
     
+   --signal  Ds, Qs, adrss :  std_logic_vector((word_width-1) downto 0);
 begin
     --this is a synchronous memory, so the update happens at clock edge.
+
+    --this is a test process to check why while reading from memory, the q updates in the next clock cycle ?
 
     process (clk,rst)
         variable adrs_index : INTEGER;
     begin
         adrs_index := to_integer(unsigned(adrs));
-        if (rst = '1') then
+        if (rst = '0') then
             mem_block <= (others => (others => '0'));
         elsif (clk'event and clk = '1' ) then
             if(we ='1') then
@@ -46,4 +49,3 @@ begin
     
 
 end architecture;
-

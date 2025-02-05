@@ -9,89 +9,271 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA/20.1/convolution/convolution
+Econtrolpath
+Z0 w1737382968
+Z1 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 103
+Z5 dC:/intelFPGA/20.1/convolution/user_lib
+Z6 8C:/intelFPGA/20.1/convolution/user_lib/controlpath.vhd
+Z7 FC:/intelFPGA/20.1/convolution/user_lib/controlpath.vhd
+l0
+L7 1
+VP3NLBLglFHH6:OOCEMA9L3
+!s100 l[F:czKzSL5c9W3QMZ@0j1
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1737815106
+!i10b 1
+Z10 !s108 1737815106.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/user_lib/controlpath.vhd|
+Z12 !s107 C:/intelFPGA/20.1/convolution/user_lib/controlpath.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+R4
+DEx4 work 11 controlpath 0 22 P3NLBLglFHH6:OOCEMA9L3
+!i122 103
+l36
+L31 103
+VW6SQ[BJ:T?;B4GYCHX55F0
+!s100 RGT;7I;ND?ogG8<FbgVXS0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
 Emac_8bit
-Z0 w1736869711
-Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 19
-Z4 dC:/intelFPGA/20.1/convolution/user_lib
-Z5 8C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit.vhd
-Z6 FC:/intelFPGA/20.1/convolution/user_lib/MAC_8bit.vhd
+Z15 w1736869711
+R2
+R3
+R4
+!i122 100
+R5
+Z16 8C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit.vhd
+Z17 FC:/intelFPGA/20.1/convolution/user_lib/MAC_8bit.vhd
 l0
 L5 1
 VPb=:W8C[0iHJR9cQ3TJDd0
 !s100 lV:BcK8^BZHHlgRfS<cfK1
-Z7 OV;C;2020.1;71
+R8
 32
-Z8 !s110 1736869721
+R9
 !i10b 1
-Z9 !s108 1736869721.000000
-Z10 !s90 -reportprogress|300|-work|user_lib|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit.vhd|
-Z11 !s107 C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit.vhd|
+R10
+Z18 !s90 -reportprogress|300|-work|user_lib|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit.vhd|
+Z19 !s107 C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit.vhd|
 !i113 1
-Z12 o-work user_lib -2002 -explicit
-Z13 tExplicit 1 CvgOpt 0
+Z20 o-work user_lib -2002 -explicit
+R14
 Artl
-R1
 R2
 R3
+R4
 DEx4 work 8 mac_8bit 0 22 Pb=:W8C[0iHJR9cQ3TJDd0
-!i122 19
+!i122 100
 l23
 L16 32
 V=mb1kT=am[N2]H9HcQ8162
 !s100 c0[TZLd<lX_7]InGee=e^2
-R7
-32
 R8
-!i10b 1
+32
 R9
+!i10b 1
 R10
-R11
+R18
+R19
 !i113 1
-R12
-R13
+R20
+R14
 Emac_8bit_tb
-Z14 w1736869129
-R1
+Z21 w1736869129
 R2
 R3
-!i122 20
 R4
-Z15 8C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit_tb.vhd
-Z16 FC:/intelFPGA/20.1/convolution/user_lib/MAC_8bit_tb.vhd
+!i122 101
+R5
+Z22 8C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit_tb.vhd
+Z23 FC:/intelFPGA/20.1/convolution/user_lib/MAC_8bit_tb.vhd
 l0
 L5 1
 VYjDKQA?Kl:2PEO12W1GHm3
 !s100 7X??OhjalE9DSJ3LR4H4G3
-R7
-32
 R8
-!i10b 1
+32
 R9
-Z17 !s90 -reportprogress|300|-work|user_lib|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit_tb.vhd|
-Z18 !s107 C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit_tb.vhd|
+!i10b 1
+R10
+Z24 !s90 -reportprogress|300|-work|user_lib|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit_tb.vhd|
+Z25 !s107 C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit_tb.vhd|
 !i113 1
-R12
-R13
+R20
+R14
 Artl
+R2
+R3
+R4
+DEx4 work 11 mac_8bit_tb 0 22 YjDKQA?Kl:2PEO12W1GHm3
+!i122 101
+l31
+L8 83
+Vl0WCBSUzcC:gWE4j7OeV91
+!s100 X]:<OHeYbT7VaBh6AVIol0
+R8
+32
+R9
+!i10b 1
+R10
+R24
+R25
+!i113 1
+R20
+R14
+Ematrix_x_vector_3x1
+Z26 w1737386885
 R1
 R2
 R3
-Z19 DEx4 work 11 mac_8bit_tb 0 22 YjDKQA?Kl:2PEO12W1GHm3
-!i122 20
-l31
-Z20 L8 83
-Z21 Vl0WCBSUzcC:gWE4j7OeV91
-Z22 !s100 X]:<OHeYbT7VaBh6AVIol0
-R7
-32
+R4
+!i122 104
+R5
+Z27 8C:/intelFPGA/20.1/convolution/user_lib/matrix_x_vector_3x1.vhd
+Z28 FC:/intelFPGA/20.1/convolution/user_lib/matrix_x_vector_3x1.vhd
+l0
+L9 1
+VhzlgEaI>iTk]I:8JX0OzH3
+!s100 G=HhhUL`0>=gAR8mS7;I01
 R8
-!i10b 1
+32
 R9
-R17
-R18
+!i10b 1
+R10
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/user_lib/matrix_x_vector_3x1.vhd|
+Z30 !s107 C:/intelFPGA/20.1/convolution/user_lib/matrix_x_vector_3x1.vhd|
 !i113 1
-R12
 R13
+R14
+Artl
+DEx8 user_lib 8 mac_8bit 0 22 Pb=:W8C[0iHJR9cQ3TJDd0
+DEx8 user_lib 11 controlpath 0 22 P3NLBLglFHH6:OOCEMA9L3
+R1
+R2
+R3
+R4
+DEx4 work 19 matrix_x_vector_3x1 0 22 hzlgEaI>iTk]I:8JX0OzH3
+!i122 104
+l73
+L32 73
+V2:GI8ah@Qod]OnMlV3L3B3
+!s100 IKbKo??eYN3i2@2n>M_k_3
+R8
+32
+!s110 1737815107
+!i10b 1
+R10
+R29
+R30
+!i113 1
+R13
+R14
+Ememory
+Z31 w1737402463
+R2
+R3
+R4
+!i122 102
+R5
+Z32 8C:/intelFPGA/20.1/convolution/user_lib/memory.vhd
+Z33 FC:/intelFPGA/20.1/convolution/user_lib/memory.vhd
+l0
+L6 1
+VZzIScHY4]Pm5??D4i_DTo0
+!s100 K1Uf;?TWfdkkGE?FAa9NQ1
+R8
+32
+R9
+!i10b 1
+R10
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/user_lib/memory.vhd|
+Z35 !s107 C:/intelFPGA/20.1/convolution/user_lib/memory.vhd|
+!i113 1
+R13
+R14
+Artl
+R2
+R3
+R4
+DEx4 work 6 memory 0 22 ZzIScHY4]Pm5??D4i_DTo0
+!i122 102
+l27
+L21 31
+VEdmU2clIVfFdg[8TRC3`R1
+!s100 h@=D8PcVh3fk_1[_3lR@j0
+R8
+32
+R9
+!i10b 1
+R10
+R34
+R35
+!i113 1
+R13
+R14
+Emv3x1_tb
+Z36 w1737820991
+R1
+R2
+R3
+R4
+!i122 111
+R5
+Z37 8C:/intelFPGA/20.1/convolution/user_lib/mv3x1_tb.vhd
+Z38 FC:/intelFPGA/20.1/convolution/user_lib/mv3x1_tb.vhd
+l0
+L10 1
+VVh^f;j72QcW9cDoFIOKMA3
+!s100 5f_On9zLm3RamA7A17OdQ2
+R8
+32
+Z39 !s110 1737820995
+!i10b 1
+Z40 !s108 1737820995.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/convolution/user_lib/mv3x1_tb.vhd|
+Z42 !s107 C:/intelFPGA/20.1/convolution/user_lib/mv3x1_tb.vhd|
+!i113 1
+R13
+R14
+Artl
+Z43 DEx8 user_lib 6 memory 0 22 ZzIScHY4]Pm5??D4i_DTo0
+Z44 DEx8 user_lib 19 matrix_x_vector_3x1 0 22 hzlgEaI>iTk]I:8JX0OzH3
+R1
+R2
+R3
+R4
+Z45 DEx4 work 8 mv3x1_tb 0 22 Vh^f;j72QcW9cDoFIOKMA3
+!i122 111
+l91
+Z46 L13 251
+VA9RES79K3gSla8E5P2zZW3
+!s100 dOb0[Xc53UhQ1[>ePWFkI0
+R8
+32
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R13
+R14
