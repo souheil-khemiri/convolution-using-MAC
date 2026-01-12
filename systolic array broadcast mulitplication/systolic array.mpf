@@ -96,7 +96,7 @@ twentynm_hssi_ver = $MODEL_TECH/../altera/verilog/twentynm_hssi
 twentynm_hip_ver = $MODEL_TECH/../altera/verilog/twentynm_hip
 cyclone10lp_ver = $MODEL_TECH/../altera/verilog/cyclone10lp
 
-work = user_lib
+work = work
 [vcom]
 ; VHDL93 variable selects language version as the default. 
 ; Default is VHDL-2002.
@@ -220,7 +220,7 @@ Resolution = ps
 UserTimeUnit = default
 
 ; Default run length
-RunLength = 2 us
+RunLength = 500 ns
 
 ; Maximum iterations that can be run without advancing simulation time
 IterationLimit = 5000
@@ -410,19 +410,21 @@ ConcurrentFileLimit = 40
 Project_Version = 6
 Project_DefaultLib = work
 Project_SortMethod = unused
-Project_Files_Count = 6
-Project_File_0 = C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit_tb.vhd
-Project_File_P_0 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1736869129 vhdl_disableopt 0 vhdl_vital 0 cover_excludedefault 0 vhdl_warn1 1 vhdl_warn2 1 vhdl_explicit 1 vhdl_showsource 0 vhdl_warn3 1 cover_covercells 0 vhdl_0InOptions {} vhdl_warn4 1 voptflow 1 cover_optlevel 3 vhdl_options {} vhdl_warn5 1 toggle - ood 0 cover_noshort 0 compile_to user_lib compile_order 1 cover_nosub 0 dont_compile 0 vhdl_use93 2002
-Project_File_1 = C:/intelFPGA/20.1/convolution/user_lib/mv3x1_tb.vhd
-Project_File_P_1 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1737820991 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 0 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 5 dont_compile 0 cover_nosub 0 vhdl_use93 2002
-Project_File_2 = C:/intelFPGA/20.1/convolution/user_lib/memory.vhd
-Project_File_P_2 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1737402463 vhdl_disableopt 0 vhdl_vital 0 cover_excludedefault 0 vhdl_warn1 1 vhdl_warn2 1 vhdl_explicit 1 vhdl_showsource 0 vhdl_warn3 1 cover_covercells 0 vhdl_0InOptions {} vhdl_warn4 1 voptflow 1 cover_optlevel 3 vhdl_options {} vhdl_warn5 1 toggle - ood 0 cover_noshort 0 compile_to work compile_order 2 cover_nosub 0 dont_compile 0 vhdl_use93 2002
-Project_File_3 = C:/intelFPGA/20.1/convolution/user_lib/matrix_x_vector_3x1.vhd
-Project_File_P_3 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1737386885 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 0 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 4 dont_compile 0 cover_nosub 0 vhdl_use93 2002
-Project_File_4 = C:/intelFPGA/20.1/convolution/user_lib/controlpath.vhd
-Project_File_P_4 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1737382968 vhdl_disableopt 0 vhdl_vital 0 cover_excludedefault 0 vhdl_warn1 1 vhdl_warn2 1 vhdl_explicit 1 vhdl_showsource 0 vhdl_warn3 1 cover_covercells 0 vhdl_0InOptions {} vhdl_warn4 1 voptflow 1 cover_optlevel 3 vhdl_options {} vhdl_warn5 1 toggle - ood 0 cover_noshort 0 compile_to work compile_order 3 cover_nosub 0 dont_compile 0 vhdl_use93 2002
-Project_File_5 = C:/intelFPGA/20.1/convolution/user_lib/MAC_8bit.vhd
-Project_File_P_5 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1736869711 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 0 toggle - vhdl_warn5 1 compile_to user_lib cover_noshort 0 compile_order 0 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_Files_Count = 7
+Project_File_0 = C:/intelFPGA/20.1/convolution/systolic array/testbench.vhd
+Project_File_P_0 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1739807874 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 0 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 5 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_1 = C:/intelFPGA/20.1/convolution/systolic array/SA_wb_ib_os_tb.vhd
+Project_File_P_1 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1739806126 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 0 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 4 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_2 = C:/intelFPGA/20.1/convolution/systolic array/PE.vhd
+Project_File_P_2 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1739711233 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 0 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 1 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_3 = C:/intelFPGA/20.1/convolution/systolic array/types_pkg.vhd
+Project_File_P_3 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1739734507 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 0 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 6 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_4 = C:/intelFPGA/20.1/convolution/systolic array/PE_tb.vhd
+Project_File_P_4 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1739712200 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 0 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 2 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_5 = C:/intelFPGA/20.1/convolution/systolic array/SA_wb_ib_os.vhd
+Project_File_P_5 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1739806019 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 0 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 3 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_6 = C:/intelFPGA/20.1/convolution/systolic array/ai_tb.vhd
+Project_File_P_6 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1739807729 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 0 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 0 dont_compile 0 cover_nosub 0 vhdl_use93 2002
 Project_Sim_Count = 0
 Project_Folder_Count = 0
 Echo_Compile_Output = 0
